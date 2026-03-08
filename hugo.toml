@@ -6,7 +6,7 @@ languageCode = "en"
 # Choose one of emacs, trac or perldoc
 pygmentsStyle = "monokai"
 theme = "gokarna"
-title = "Xinzhi Wang (王昕智)"
+title = "Xinzhi"
 
 [params]
   avatarAltText = "avatar"
@@ -34,7 +34,11 @@ title = "Xinzhi Wang (王昕智)"
     </script>
   """
 
-  description = "Ph.D student @ Purdue University.<br>Location: West Lafayette<br>Interested in LLM and DB."
+  description = """
+Ph.D student @ Purdue University.
+Location: West Lafayette
+Interested in LLM and DB.
+"""
   footer = "Xinzhi Wang"
   metaKeywords = ["blog", "Xinzhi", "hugo"]
   showBackToTopButton = true # true or false for "back to top" button on posts and pages
@@ -53,19 +57,19 @@ title = "Xinzhi Wang (王昕智)"
     weight = 1
 
   [[menu.main]]
-    name = "Posts"
+    name = "About Me"
     pre = "<span data-feather='book'></span>"
     url = "/posts/"
     weight = 2
 
   [[menu.main]]
-    name = "Projects"
+    name = "Publications"
     pre = "<span data-feather='code'></span>"
     url = "/projects/"
     weight = 3
 
   [[menu.main]]
-    name = "Tags"
+    name = "Fun"
     pre = "<span data-feather='tag'></span>"
     url = "/tags/"
     weight = 4
@@ -73,7 +77,7 @@ title = "Xinzhi Wang (王昕智)"
   [[menu.main]]
     identifier = "github"
     pre = "<span data-feather='github'></span>"
-    url = "https://github.com/gokarna-theme/gokarna-hugo"
+    url = "https://github.com/AuroraWXZ"
     weight = 5
 
   [[menu.main]]
