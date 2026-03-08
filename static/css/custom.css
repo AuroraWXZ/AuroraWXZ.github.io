@@ -67,8 +67,9 @@ html[data-theme="dark"] .publication-description {
 
 .photo-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 14px;
+  margin-top: 1rem;
 }
 
 .photo-grid a {
@@ -84,9 +85,4 @@ html[data-theme="dark"] .publication-description {
   height: 100%;
   object-fit: cover;
   object-position: center;
-  transition: transform 0.25s ease;
-}
-
-.photo-grid img:hover {
-  transform: scale(1.05);
 }
