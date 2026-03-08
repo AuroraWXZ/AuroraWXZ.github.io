@@ -21,21 +21,25 @@ Here are some moments from my life in Sydney.
 
 <div class="photo-grid">
 
-<a href="/images/life_sydney/beauty_beast.jpg"><img src="/images/life_sydney/beauty_beast.jpg"></a>
-<a href="/images/life_sydney/mamamia.jpg"><img src="/images/life_sydney/mamamia.jpg"></a>
-<a href="/images/life_sydney/madam_butterfly.jpg"><img src="/images/life_sydney/madam_butterfly.jpg"></a>
-<a href="/images/life_sydney/la.jpg"><img src="/images/life_sydney/la.jpg"></a>
+  <img src="/images/life_sydney/beauty_beast.jpg" onclick="openLightbox(this.src)">
+  <img src="/images/life_sydney/mamamia.jpg" onclick="openLightbox(this.src)">
+  <img src="/images/life_sydney/madam_butterfly.jpg" onclick="openLightbox(this.src)">
+  <img src="/images/life_sydney/la.jpg" onclick="openLightbox(this.src)">
 
-<a href="/images/life_sydney/summer_night.jpg"><img src="/images/life_sydney/summer_night.jpg"></a>
-<a href="/images/life_sydney/fencing.jpg"><img src="/images/life_sydney/fencing.jpg"></a>
-<a href="/images/life_sydney/halloween.jpg"><img src="/images/life_sydney/halloween.jpg"></a>
-<a href="/images/life_sydney/opera_house.jpg"><img src="/images/life_sydney/opera_house.jpg"></a>
+  <img src="/images/life_sydney/summer_night.jpg" onclick="openLightbox(this.src)">
+  <img src="/images/life_sydney/fencing.jpg" onclick="openLightbox(this.src)">
+  <img src="/images/life_sydney/halloween.jpg" onclick="openLightbox(this.src)">
+  <img src="/images/life_sydney/opera_house.jpg" onclick="openLightbox(this.src)">
 
-<a href="/images/life_sydney/Sydney_city.jpg"><img src="/images/life_sydney/Sydney_city.jpg"></a>
-<a href="/images/life_sydney/sydney_city_2.jpg"><img src="/images/life_sydney/sydney_city_2.jpg"></a>
-<a href="/images/life_sydney/sydney_city_3.jpg"><img src="/images/life_sydney/sydney_city_3.jpg"></a>
-<a href="/images/life_sydney/sydney_city_4.jpg"><img src="/images/life_sydney/sydney_city_4.jpg"></a>
+  <img src="/images/life_sydney/Sydney_city.jpg" onclick="openLightbox(this.src)">
+  <img src="/images/life_sydney/sydney_city_2.jpg" onclick="openLightbox(this.src)">
+  <img src="/images/life_sydney/sydney_city_3.jpg" onclick="openLightbox(this.src)">
+  <img src="/images/life_sydney/sydney_city_4.jpg" onclick="openLightbox(this.src)">
 
+</div>
+
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="">
 </div>
 
 
@@ -47,53 +51,20 @@ I am currently living in the United States while pursuing my PhD at Purdue Unive
 
 <div class="photo-grid">
 
-<a href="/images/life_usa/train.jpg">
-  <img src="/images/life_usa/train.jpg">
-</a>
+<img src="/images/life_usa/train.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_usa/gate.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_usa/snow_1.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_usa/snow_2.jpg" onclick="openLightbox(this.src)">
 
-<a href="/images/life_usa/gate.jpg">
-  <img src="/images/life_usa/gate.jpg">
-</a>
+<img src="/images/life_usa/yellow_stone.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_usa/yellow_stone_2.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_usa/yellow_stone_3.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_usa/halloween.jpg" onclick="openLightbox(this.src)">
 
-<a href="/images/life_usa/snow_1.jpg">
-  <img src="/images/life_usa/snow_1.jpg">
-</a>
-
-<a href="/images/life_usa/snow_2.jpg">
-  <img src="/images/life_usa/snow_2.jpg">
-</a>
-
-<a href="/images/life_usa/yellow_stone.jpg">
-  <img src="/images/life_usa/yellow_stone.jpg">
-</a>
-
-<a href="/images/life_usa/yellow_stone_2.jpg">
-  <img src="/images/life_usa/yellow_stone_2.jpg">
-</a>
-
-<a href="/images/life_usa/yellow_stone_3.jpg">
-  <img src="/images/life_usa/yellow_stone_3.jpg">
-</a>
-
-<a href="/images/life_usa/halloween.jpg">
-  <img src="/images/life_usa/halloween.jpg">
-</a>
-
-<a href="/images/life_usa/concert.jpg">
-  <img src="/images/life_usa/concert.jpg">
-</a>
-
-<a href="/images/life_usa/sun_down.jpg">
-  <img src="/images/life_usa/sun_down.jpg">
-</a>
-
-<a href="/images/life_usa/chris_1.jpg">
-  <img src="/images/life_usa/chris_1.jpg">
-</a>
-
-<a href="/images/life_usa/chris_2.jpg">
-  <img src="/images/life_usa/chris_2.jpg">
-</a>
+<img src="/images/life_usa/concert.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_usa/sun_down.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_usa/chris_1.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_usa/chris_2.jpg" onclick="openLightbox(this.src)">
 
 </div>
 
