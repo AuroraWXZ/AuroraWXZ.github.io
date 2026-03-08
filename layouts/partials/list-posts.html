@@ -19,7 +19,7 @@
 
   {{ with $page.Description }}
     <div class="publication-description">
-      {{ . }}
+      {{ . | markdownify }}
     </div>
   {{ end }}
 </div>
