@@ -26,20 +26,30 @@ Here are some moments from my life in Sydney.
 
 <div class="photo-grid">
 
+<img src="/images/life_sydney/uni_1.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_sydney/uni_2.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_sydney/uni_3.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_sydney/uni_4.jpg" onclick="openLightbox(this.src)">
+
+<img src="/images/life_sydney/city_1.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_sydney/city_2.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_sydney/city_3.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_sydney/city_4.jpg" onclick="openLightbox(this.src)">
+
+<img src="/images/life_sydney/view_1.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_sydney/view_2.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_sydney/view_3.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_sydney/view_4.jpg" onclick="openLightbox(this.src)">
+
+<img src="/images/life_sydney/life_1.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_sydney/life_2.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_sydney/animal_1.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_sydney/animal_2.jpg" onclick="openLightbox(this.src)">
+
 <img src="/images/life_sydney/beauty_beast.jpg" onclick="openLightbox(this.src)">
 <img src="/images/life_sydney/mamamia.jpg" onclick="openLightbox(this.src)">
 <img src="/images/life_sydney/madam_butterfly.jpg" onclick="openLightbox(this.src)">
 <img src="/images/life_sydney/la.jpg" onclick="openLightbox(this.src)">
-
-<img src="/images/life_sydney/summer_night.jpg" onclick="openLightbox(this.src)">
-<img src="/images/life_sydney/fencing.jpg" onclick="openLightbox(this.src)">
-<img src="/images/life_sydney/halloween.jpg" onclick="openLightbox(this.src)">
-<img src="/images/life_sydney/opera_house.jpg" onclick="openLightbox(this.src)">
-
-<img src="/images/life_sydney/Sydney_city.jpg" onclick="openLightbox(this.src)">
-<img src="/images/life_sydney/sydney_city_2.jpg" onclick="openLightbox(this.src)">
-<img src="/images/life_sydney/sydney_city_3.jpg" onclick="openLightbox(this.src)">
-<img src="/images/life_sydney/sydney_city_4.jpg" onclick="openLightbox(this.src)">
 
 </div>
 
