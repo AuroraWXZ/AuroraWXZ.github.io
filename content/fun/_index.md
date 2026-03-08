@@ -21,9 +21,9 @@ Here are some moments from my life in Sydney.
 
 ### $life in sydney
 
-![Sydney 1](images/life_sydney/beauty_beast.jpg)
-![Sydney 2](images/life_sydney/mamamia.jpg)
-![Sydney 3](images/life_sydney/madam_butterfly.jpg)
+![Sydney 1](static/images/life_sydney/beauty_beast.jpg)
+![Sydney 2](static/images/life_sydney/mamamia.jpg)
+![Sydney 3](static/images/life_sydney/madam_butterfly.jpg)
 
 ---
 
