@@ -34,7 +34,7 @@ title = "Xinzhi"
     </script>
   """
 
-  description = "Ph.D Student at Purdue University • Research in LLMs and Databases"
+  description = "Ph.D Student @ Purdue University"
   footer = "Xinzhi Wang"
   metaKeywords = ["blog", "Xinzhi", "hugo"]
   showBackToTopButton = true # true or false for "back to top" button on posts and pages
@@ -75,12 +75,6 @@ title = "Xinzhi"
     pre = "<span data-feather='github'></span>"
     url = "https://github.com/AuroraWXZ"
     weight = 5
-
-  [[menu.main]]
-    identifier = "rss"
-    pre = "<span data-feather='rss'></span>"
-    url = "/index.xml"
-    weight = 7
 
 [markup]
   [markup.tableOfContents]
