@@ -15,25 +15,40 @@
 .conf-badge.sigmod    { background-color: #EF3473; }
 
 /* publication type */
-.conf-badge.proceeding { background-color: #615EAA; }
+.conf-badge.proceeding { 
+  background-color: #615EAA; 
+  vertical-align: middle;
+  margin-right: 0.6rem;
+}
 
+/* make the publication entry slightly more spaced */
 .post-entry {
-  margin-bottom: 1.75rem;
+  margin-bottom: 2rem;
 }
 
+/* allow the title line to take full width */
 .post-title {
-  line-height: 1.45;
+  max-width: 1100px;
+  line-height: 1.5;
 }
 
+/* enlarge and bold the title */
 .publication-title {
+  font-size: 1.25rem;
   font-weight: 700;
 }
 
+/* allow the title text to wrap nicely */
+.post-link {
+  display: inline;
+  text-decoration: none;
+}
+
+/* description styling */
 .publication-description {
-  margin-top: 0.4rem;
+  margin-top: 0.45rem;
   font-size: 0.95rem;
   line-height: 1.6;
-  color: #666;
-  padding-left: 0.1rem;
-  max-width: 950px;
+  color: #cfcfcf;
+  max-width: 1100px;
 }

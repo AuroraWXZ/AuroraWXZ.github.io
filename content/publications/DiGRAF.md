@@ -1,7 +1,7 @@
 ---
 title: 'DIGRAF: Diffeomorphic Graph-Adaptive Activation Function'
 date: 2024-05-31T00:00:00+00:00
-description: "Mantri, Krishna S., Xinzhi Wang, Carola-Bibiane Schönlieb, Bruno Ribeiro, Beatrice Bevilacqua, and Moshe Eliasof. \"Digraf: Diffeomorphic graph-adaptive activation function.\" Advances in Neural Information Processing Systems 37 (2024): 3649-3681."
+description: "Mantri, Krishna S., **Xinzhi Wang**, Carola-Bibiane Schönlieb, Bruno Ribeiro, Beatrice Bevilacqua, and Moshe Eliasof. \"Digraf: Diffeomorphic graph-adaptive activation function.\" Advances in Neural Information Processing Systems 37 (2024): 3649-3681."
 tags: ["graph", "NeurIPS"]
 type: post
 showTableOfContents: true
