@@ -4,7 +4,7 @@ enableEmoji = true
 enableRobotsTXT = true
 languageCode = "en"
 # Choose one of emacs, trac or perldoc
-pygmentsStyle = "monokai"
+pygmentsStyle = "catppuccin-mocha"
 theme = "gokarna"
 title = "Xinzhi"
 
@@ -12,6 +12,8 @@ title = "Xinzhi"
   avatarAltText = "avatar"
   avatarSize = "size-xl"
   avatarURL = "/images/avatar.webp"
+  accentColor = "#FFFAA3"
+
 
   customHeadHTML = """
     <!-- KaTeX -->
