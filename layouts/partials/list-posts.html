@@ -1,17 +1,17 @@
+{{ $page := . }}
 <div class="post-title">
-  <a href="{{ .Permalink }}" class="post-link">
-    {{ with .Params.badge }}
-      <span class="conf-badge {{ .Params.badgeClass }}">{{ .Params.badge }}</span>
+  <a href="{{ $page.Permalink }}" class="post-link">
+    {{ with $page.Params.badge }}
+      <span class="conf-badge {{ $page.Params.badgeClass }}">{{ . }}</span>
     {{ end }}
-    {{ .Title }}
+    {{ $page.Title }}
   </a>
 
   {{ $displayDate := true }}
-  {{ $tagsHidePostDate := or .Site.Params.Hidden.TagsPostDate slice }}
-  {{ $postTags := or .Params.Tags slice }}
+  {{ $tagsHidePostDate := or $page.Site.Params.Hidden.TagsPostDate slice }}
+  {{ $postTags := or $page.Params.Tags slice }}
 
   {{ if gt ($tagsHidePostDate | intersect $postTags | len) 0 }}
     {{ $displayDate = false }}
   {{ end }}
-  
 </div>
