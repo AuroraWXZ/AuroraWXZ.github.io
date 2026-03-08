@@ -57,19 +57,19 @@ title = "Xinzhi"
   [[menu.main]]
     name = "About Me"
     pre = "<span data-feather='book'></span>"
-    url = "/posts/"
+    url = "/projects/"
     weight = 2
 
   [[menu.main]]
     name = "Publications"
     pre = "<span data-feather='code'></span>"
-    url = "/projects/"
+    url = "/posts/"
     weight = 3
 
   [[menu.main]]
     name = "Fun"
-    pre = "<span data-feather='tag'></span>"
-    url = "/tags/"
+    pre = "<span data-feather='headphones'></span>"
+    url = "/fun/"
     weight = 4
 
   [[menu.main]]
