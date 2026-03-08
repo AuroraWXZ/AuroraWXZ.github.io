@@ -39,15 +39,20 @@ title = "Xinzhi"
     </script>
 
     <script>
-      function openLightbox(src) {
-        document.getElementById("lightbox-img").src = src;
-        document.getElementById("lightbox").style.display = "flex";
-      }
+  function openLightbox(src) {
+    const lightbox = document.getElementById("lightbox");
+    const lightboxImg = document.getElementById("lightbox-img");
+    lightboxImg.src = src;
+    lightbox.style.display = "flex";
+    document.body.style.overflow = "hidden";
+  }
 
-      function closeLightbox() {
-        document.getElementById("lightbox").style.display = "none";
-      }
-    </script>
+  function closeLightbox() {
+    const lightbox = document.getElementById("lightbox");
+    lightbox.style.display = "none";
+    document.body.style.overflow = "";
+  }
+</script>
   """
 
   description = "Ph.D Student • LLM & Databases"

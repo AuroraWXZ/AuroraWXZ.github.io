@@ -21,27 +21,27 @@ Here are some moments from my life in Sydney.
 
 <div class="photo-grid">
 
-  <img src="/images/life_sydney/beauty_beast.jpg" onclick="openLightbox(this.src)">
-  <img src="/images/life_sydney/mamamia.jpg" onclick="openLightbox(this.src)">
-  <img src="/images/life_sydney/madam_butterfly.jpg" onclick="openLightbox(this.src)">
-  <img src="/images/life_sydney/la.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_sydney/beauty_beast.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_sydney/mamamia.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_sydney/madam_butterfly.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_sydney/la.jpg" onclick="openLightbox(this.src)">
 
-  <img src="/images/life_sydney/summer_night.jpg" onclick="openLightbox(this.src)">
-  <img src="/images/life_sydney/fencing.jpg" onclick="openLightbox(this.src)">
-  <img src="/images/life_sydney/halloween.jpg" onclick="openLightbox(this.src)">
-  <img src="/images/life_sydney/opera_house.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_sydney/summer_night.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_sydney/fencing.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_sydney/halloween.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_sydney/opera_house.jpg" onclick="openLightbox(this.src)">
 
-  <img src="/images/life_sydney/Sydney_city.jpg" onclick="openLightbox(this.src)">
-  <img src="/images/life_sydney/sydney_city_2.jpg" onclick="openLightbox(this.src)">
-  <img src="/images/life_sydney/sydney_city_3.jpg" onclick="openLightbox(this.src)">
-  <img src="/images/life_sydney/sydney_city_4.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_sydney/Sydney_city.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_sydney/sydney_city_2.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_sydney/sydney_city_3.jpg" onclick="openLightbox(this.src)">
+<img src="/images/life_sydney/sydney_city_4.jpg" onclick="openLightbox(this.src)">
 
 </div>
 
-<div id="lightbox" onclick="closeLightbox()">
-  <img id="lightbox-img" src="">
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">&times;</span>
+  <img id="lightbox-img" class="lightbox-img" src="" alt="">
 </div>
-
 
 ---
 
@@ -50,21 +50,17 @@ Here are some moments from my life in Sydney.
 I am currently living in the United States while pursuing my PhD at Purdue University. Life here has also been a new and exciting experience.
 
 <div class="photo-grid">
-
-<img src="/images/life_usa/train.jpg" onclick="openLightbox(this.src)">
-<img src="/images/life_usa/gate.jpg" onclick="openLightbox(this.src)">
-<img src="/images/life_usa/snow_1.jpg" onclick="openLightbox(this.src)">
-<img src="/images/life_usa/snow_2.jpg" onclick="openLightbox(this.src)">
-
-<img src="/images/life_usa/yellow_stone.jpg" onclick="openLightbox(this.src)">
-<img src="/images/life_usa/yellow_stone_2.jpg" onclick="openLightbox(this.src)">
-<img src="/images/life_usa/yellow_stone_3.jpg" onclick="openLightbox(this.src)">
-<img src="/images/life_usa/halloween.jpg" onclick="openLightbox(this.src)">
-
-<img src="/images/life_usa/concert.jpg" onclick="openLightbox(this.src)">
-<img src="/images/life_usa/sun_down.jpg" onclick="openLightbox(this.src)">
-<img src="/images/life_usa/chris_1.jpg" onclick="openLightbox(this.src)">
-<img src="/images/life_usa/chris_2.jpg" onclick="openLightbox(this.src)">
-
+  <img src="/images/life_usa/train.jpg" onclick="openLightbox(this.src)">
+  <img src="/images/life_usa/gate.jpg" onclick="openLightbox(this.src)">
+  <img src="/images/life_usa/snow_1.jpg" onclick="openLightbox(this.src)">
+  <img src="/images/life_usa/snow_2.jpg" onclick="openLightbox(this.src)">
+  <img src="/images/life_usa/yellow_stone.jpg" onclick="openLightbox(this.src)">
+  <img src="/images/life_usa/yellow_stone_2.jpg" onclick="openLightbox(this.src)">
+  <img src="/images/life_usa/yellow_stone_3.jpg" onclick="openLightbox(this.src)">
+  <img src="/images/life_usa/halloween.jpg" onclick="openLightbox(this.src)">
+  <img src="/images/life_usa/concert.jpg" onclick="openLightbox(this.src)">
+  <img src="/images/life_usa/sun_down.jpg" onclick="openLightbox(this.src)">
+  <img src="/images/life_usa/chris_1.jpg" onclick="openLightbox(this.src)">
+  <img src="/images/life_usa/chris_2.jpg" onclick="openLightbox(this.src)">
 </div>
 
