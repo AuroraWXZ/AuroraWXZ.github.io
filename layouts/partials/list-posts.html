@@ -8,4 +8,9 @@
      {{ if gt ($tagsHidePostDate | intersect $postTags | len) 0 }}
        {{ $displayDate = false }}
      {{ end }}
+
+     {{ with .Params.badge }}
+      <span class="conf-badge {{ $.Params.badgeClass }}">{{ . }}</span>
+    {{ end }}
+    {{ .Title }}
 </div>
