@@ -19,11 +19,58 @@ Sydney was where I completed my undergraduate studies at the University of Sydne
 
 Here are some moments from my life in Sydney.
 
-### $life in sydney
+<div style="display:flex; flex-wrap:wrap; gap:10px;">
 
-![Sydney 1](static/images/life_sydney/beauty_beast.jpg)
-![Sydney 2](static/images/life_sydney/mamamia.jpg)
-![Sydney 3](static/images/life_sydney/madam_butterfly.jpg)
+<a href="/images/life_sydney/beauty_beast.jpg">
+<img src="/images/life_sydney/beauty_beast.jpg" width="160" style="border-radius:8px;">
+</a>
+
+<a href="/images/life_sydney/mamamia.jpg">
+<img src="/images/life_sydney/mamamia.jpg" width="160" style="border-radius:8px;">
+</a>
+
+<a href="/images/life_sydney/madam_butterfly.jpg">
+<img src="/images/life_sydney/madam_butterfly.jpg" width="160" style="border-radius:8px;">
+</a>
+
+<a href="/images/life_sydney/la.jpg">
+<img src="/images/life_sydney/la.jpg" width="160" style="border-radius:8px;">
+</a>
+
+<a href="/images/life_sydney/summer_night.jpg">
+<img src="/images/life_sydney/summer_night.jpg" width="160" style="border-radius:8px;">
+</a>
+
+<a href="/images/life_sydney/fencing.jpg">
+<img src="/images/life_sydney/fencing.jpg" width="160" style="border-radius:8px;">
+</a>
+
+<a href="/images/life_sydney/halloween.jpg">
+<img src="/images/life_sydney/halloween.jpg" width="160" style="border-radius:8px;">
+</a>
+
+<a href="/images/life_sydney/opera_house.jpg">
+<img src="/images/life_sydney/opera_house.jpg" width="160" style="border-radius:8px;">
+</a>
+
+<a href="/images/life_sydney/Sydney_city.jpg">
+<img src="/images/life_sydney/Sydney_city.jpg" width="160" style="border-radius:8px;">
+</a>
+
+<a href="/images/life_sydney/sydney_city_2.jpg">
+<img src="/images/life_sydney/sydney_city_2.jpg" width="160" style="border-radius:8px;">
+</a>
+
+<a href="/images/life_sydney/sydney_city_3.jpg">
+<img src="/images/life_sydney/sydney_city_3.jpg" width="160" style="border-radius:8px;">
+</a>
+
+<a href="/images/life_sydney/sydney_city_4.jpg">
+<img src="/images/life_sydney/sydney_city_4.jpg" width="160" style="border-radius:8px;">
+</a>
+
+</div>
+
 
 ---
 
