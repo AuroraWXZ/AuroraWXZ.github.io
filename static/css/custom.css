@@ -85,4 +85,9 @@ html[data-theme="dark"] .publication-description {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  transition: transform 0.25s ease;
+}
+
+.photo-grid img:hover {
+  transform: scale(1.05);
 }
