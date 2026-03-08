@@ -1,1 +1,3 @@
-My name is Xinzhi Wang (王昕智), though you can also call me **Aurora**. I am a PhD student in Computer Science at Purdue University, where I am fortunate to work with Professor Chunwei Liu. My research lies at the intersection of large language models and database systems, with a particular interest in retrieval-augmented generation and AI for databases.
+My name is Xinzhi Wang (王昕智), though you can also call me **Aurora**. 
+
+I am a PhD student in Computer Science at Purdue University, where I am fortunate to work with Professor Chunwei Liu. My research lies at the intersection of large language models and database systems, with a particular interest in RAG and AI for databases.
