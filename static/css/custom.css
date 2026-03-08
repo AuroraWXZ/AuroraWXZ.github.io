@@ -1,12 +1,12 @@
 .conf-badge {
   display: inline-block;
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   font-weight: 600;
-  padding: 0.15rem 0.5rem;
+  padding: 0.18rem 0.55rem;
   border-radius: 999px;
   margin-right: 0.5rem;
-  vertical-align: middle;
   color: white;
+  vertical-align: middle;
 }
 
 .conf-badge.neurips { background-color: #DA9333; }

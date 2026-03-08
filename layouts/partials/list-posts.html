@@ -1,7 +1,7 @@
 <div class="post-title">
   <a href="{{ .Permalink }}" class="post-link">
     {{ with .Params.badge }}
-      <span class="conf-badge {{ $.Params.badgeClass }}">{{ . }}</span>
+      <span class="conf-badge {{ .Params.badgeClass }}">{{ .Params.badge }}</span>
     {{ end }}
     {{ .Title }}
   </a>
