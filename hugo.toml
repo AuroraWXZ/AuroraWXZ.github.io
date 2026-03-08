@@ -82,6 +82,10 @@ title = "Xinzhi"
     endLevel = 4
     ordered = false
 
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [minify]
     minifyOutput = true
 
