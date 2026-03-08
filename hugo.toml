@@ -34,17 +34,13 @@ title = "Xinzhi"
     </script>
   """
 
-  description = """
-Ph.D student @ Purdue University.
-Location: West Lafayette
-Interested in LLM and DB.
-"""
+  description = "Ph.D Student at Purdue University • Research in LLMs and Databases"
   footer = "Xinzhi Wang"
   metaKeywords = ["blog", "Xinzhi", "hugo"]
   showBackToTopButton = true # true or false for "back to top" button on posts and pages
 
   socialIcons = [
-    {name = "email", url = "wang6171@purdue.edu"},
+    {name = "email", url = "mailto:wang6171@purdue.edu"},
     {name = "linkedin", url = "https://www.linkedin.com/in/xinzhi-wang-ab01b3191/"},
     {name = "google", url = "https://scholar.google.com/citations?user=YTrIWCoAAAAJ&hl=en"}
   ]
