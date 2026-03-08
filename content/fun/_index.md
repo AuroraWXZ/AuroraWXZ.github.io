@@ -3,8 +3,6 @@ title: "Fun things"
 type: page
 ---
 
-# Fun
-
 Outside of research, I enjoy many different activities. I am currently learning **drawing**. The avatar on this website and the tab icon were drawn by me :smile:. I often practice sketching and hope to improve my illustration skills over time.
 
 I also enjoy cooking and exploring good food. Staying active is important to me as well. I like playing badminton and I am trying to build the habit of working out regularly. I also practiced **fencing** while studying in Sydney.

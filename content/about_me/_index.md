@@ -7,8 +7,6 @@ type: page
   <img src="/images/avatar.webp" alt="Xinzhi Wang" width="180" style="border-radius: 12px;" />
 </div>
 
-# About Me
-
 Hi! I am **Xinzhi Wang (王昕智)**, though my friends also call me **Aurora**. I am a Ph.D. student in Computer Science at Purdue University, where I am fortunate to work with Professor [Chunwei Liu](https://www.cs.purdue.edu/homes/chunwei/). My research focuses on the intersection of large language models and database systems, particularly retrieval-augmented generation and AI for databases. Before joining Purdue, I received my bachelor’s degree from the University of Sydney, where I was supervised by Professor [Clément Canonne](https://ccanonne.github.io/).
 
 <!-- ## :tada: News -->
