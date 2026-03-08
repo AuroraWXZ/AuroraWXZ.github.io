@@ -1,8 +1,17 @@
 ---
-title: "DiGRAF"
+title: "DIGRAF: Diffeomorphic Graph-Adaptive Activation Function - **NeurIPS 2024**"
 date: 2024-05-31T00:00:00+00:00
-description: "Guide to emoji usage in Hugo and DoIt."
-tags: ["graph"]
+description: "Mantri, Krishna S., Xinzhi Wang, Carola-Bibiane Schönlieb, Bruno Ribeiro, Beatrice Bevilacqua, and Moshe Eliasof. \"Digraf: Diffeomorphic graph-adaptive activation function.\" Advances in Neural Information Processing Systems 37 (2024): 3649-3681."
+tags: ["graph", "NeruIPS"]
 type: post
 showTableOfContents: true
 ---
+
+## Abstract
+In this paper, we propose a novel activation function tailored specifically for graph data in Graph Neural Networks (GNNs). Motivated by the need for graph-adaptive and flexible activation functions, we introduce DiGRAF, leveraging Continuous Piecewise-Affine Based (CPAB) transformations, which we augment with an additional GNN to learn a graph-adaptive diffeomorphic activation function in an end-to-end manner. In addition to its graph-adaptivity and flexibility, DiGRAF also possesses properties that are widely recognized as desirable for activation functions, such as differentiability, boundness within the domain, and computational efficiency. We conduct an extensive set of experiments across diverse datasets and tasks, demonstrating a consistent and superior performance of DiGRAF compared to traditional and graph-specific activation functions, highlighting its effectiveness as an activation function for GNNs.
+
+## Code
+https://github.com/ipsitmantri/DiGRAF
+
+## 
+
