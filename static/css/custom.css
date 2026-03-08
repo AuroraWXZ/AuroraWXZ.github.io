@@ -51,8 +51,16 @@
 }
 
 .publication-description {
-  margin-top: 0.55rem;
+  margin-top: 0.5rem;
   font-size: 0.98rem;
   line-height: 1.65;
-  color: #d0d0d0;
+  max-width: 1100px;
+}
+
+html[data-theme="light"] .publication-description {
+  color: #444;
+}
+
+html[data-theme="dark"] .publication-description {
+  color: #b8b8b8;
 }
