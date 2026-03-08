@@ -37,5 +37,5 @@ Hi! I am **Xinzhi Wang (王昕智)**, though my friends also call me **Aurora**.
   Contributed to the development of course materials on transformers and large language models for an undergraduate introductory AI course.
 
 - **Graduate Teaching Assistant, CS 25100: Data Structures and Algorithms**  
-  Aug 2023 – Dec 2024  
+  Fall 2023 – Fall 2024  
   Responsible for grading assignments, reviewing lecture content with students, and answering questions related to course material.
