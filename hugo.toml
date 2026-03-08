@@ -34,19 +34,15 @@ title = "Xinzhi Wang (王昕智)"
     </script>
   """
 
-  description = "A Ph.D student in Computer Science at Purdue University.\n Interested in LLM and DB."
+  description = "Ph.D student @ Purdue University.<br>Location: West Lafayette<br>Interested in LLM and DB."
   footer = "Xinzhi Wang"
   metaKeywords = ["blog", "Xinzhi", "hugo"]
   showBackToTopButton = true # true or false for "back to top" button on posts and pages
 
   socialIcons = [
-    {name = "twitter", url = "https://example.com"},
-    {name = "linkedin", url = "https://example.com"},
-    {name = "stackoverflow", url = "https://example.com"},
-    {name = "dribbble", url = "https://example.com"},
-    {name = "instagram", url = "https://example.com"},
-    {name = "twitch", url = "https://example.com"},
-    {name = "email", url = "mailto:example@example.com"}
+    {name = "email", url = "wang6171@purdue.edu"},
+    {name = "linkedin", url = "https://www.linkedin.com/in/xinzhi-wang-ab01b3191/"},
+    {name = "google", url = "https://scholar.google.com/citations?user=YTrIWCoAAAAJ&hl=en"}
   ]
 
 [menu]
