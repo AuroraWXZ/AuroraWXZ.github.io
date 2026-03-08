@@ -10,7 +10,7 @@ title = "Gokarna"
 
 [params]
   avatarAltText = "avatar"
-  avatarSize = "size-m"
+  avatarSize = "size-xl"
   avatarURL = "/images/avatar.webp"
 
   customHeadHTML = """
