@@ -1,4 +1,4 @@
-baseURL = "https://gokarna-hugo.netlify.app"
+baseURL = "https://aurorawxz.github.io/"
 defaultContentLanguage = "en"
 enableEmoji = true
 enableRobotsTXT = true
@@ -34,7 +34,7 @@ title = "Xinzhi"
     </script>
   """
 
-  description = "Ph.D Student @ Purdue University"
+  description = "Ph.D Student • Purdue University • LLM & Databases"
   footer = "Xinzhi Wang"
   metaKeywords = ["blog", "Xinzhi", "hugo"]
   showBackToTopButton = true # true or false for "back to top" button on posts and pages
