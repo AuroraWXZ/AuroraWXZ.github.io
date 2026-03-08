@@ -5,6 +5,6 @@ description: "Xinzhi Wang, Peter Baile Chen, Gerardo Vitagliano, Matthew Russo, 
 tags: ["LLM", "DB", "RAG"]
 type: post
 showTableOfContents: true
-badge = "In Proceedings"
-badgeClass = "proceeding"
+badge: "In Proceedings"
+badgeClass: "proceeding"
 ---

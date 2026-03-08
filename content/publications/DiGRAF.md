@@ -5,8 +5,8 @@ description: "Mantri, Krishna S., Xinzhi Wang, Carola-Bibiane Schönlieb, Bruno 
 tags: ["graph", "NeurIPS"]
 type: post
 showTableOfContents: true
-badge = "NeurIPS 2024"
-badgeClass = "neurips"
+badge: "NeurIPS 2024"
+badgeClass: "neurips"
 ---
 
 ## :page_with_curl: Abstract
