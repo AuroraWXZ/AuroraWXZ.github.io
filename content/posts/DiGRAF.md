@@ -1,9 +1,8 @@
 ---
 title: "DiGRAF"
-date: 2024
+date: 2024-05-31T00:00:00+00:00
 description: "Guide to emoji usage in Hugo and DoIt."
 tags: ["graph"]
 type: post
-weight: 25
 showTableOfContents: true
 ---
