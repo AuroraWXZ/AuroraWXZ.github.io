@@ -6,7 +6,6 @@
     {{ .Title }}
   </a>
 
-  {{/* Decide to display the date based on the tags */}}
   {{ $displayDate := true }}
   {{ $tagsHidePostDate := or .Site.Params.Hidden.TagsPostDate slice }}
   {{ $postTags := or .Params.Tags slice }}
@@ -14,4 +13,5 @@
   {{ if gt ($tagsHidePostDate | intersect $postTags | len) 0 }}
     {{ $displayDate = false }}
   {{ end }}
+  
 </div>
