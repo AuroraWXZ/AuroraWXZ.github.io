@@ -6,7 +6,7 @@ languageCode = "en"
 # Choose one of emacs, trac or perldoc
 pygmentsStyle = "monokai"
 theme = "gokarna"
-title = "Gokarna"
+title = "Xinzhi Wang"
 
 [params]
   avatarAltText = "avatar"
@@ -35,8 +35,8 @@ title = "Gokarna"
   """
 
   description = "Sky above, sand below and peace within"
-  footer = "The Marauders"
-  metaKeywords = ["blog", "gokarna", "hugo"]
+  footer = "Xinzhi Wang"
+  metaKeywords = ["blog", "Xinzhi", "hugo"]
   showBackToTopButton = true # true or false for "back to top" button on posts and pages
 
   socialIcons = [
@@ -79,12 +79,6 @@ title = "Gokarna"
     pre = "<span data-feather='github'></span>"
     url = "https://github.com/gokarna-theme/gokarna-hugo"
     weight = 5
-
-  [[menu.main]]
-    identifier = "buymeacoffee"
-    pre = "<span data-feather='coffee'></span>"
-    url = "https://www.buymeacoffee.com/avijitgupta"
-    weight = 6
 
   [[menu.main]]
     identifier = "rss"
