@@ -1,17 +1,25 @@
 {{ $page := . }}
-<div class="post-title">
-  <a href="{{ $page.Permalink }}" class="post-link">
-    {{ with $page.Params.badge }}
-      <span class="conf-badge {{ $page.Params.badgeClass }}">{{ . }}</span>
+<div class="post-entry">
+  <div class="post-title">
+    <a href="{{ $page.Permalink }}" class="post-link">
+      {{ with $page.Params.badge }}
+        <span class="conf-badge {{ $page.Params.badgeClass }}">{{ . }}</span>
+      {{ end }}
+      <span class="publication-title">{{ $page.Title }}</span>
+    </a>
+
+    {{ $displayDate := true }}
+    {{ $tagsHidePostDate := or $page.Site.Params.Hidden.TagsPostDate slice }}
+    {{ $postTags := or $page.Params.Tags slice }}
+
+    {{ if gt ($tagsHidePostDate | intersect $postTags | len) 0 }}
+      {{ $displayDate = false }}
     {{ end }}
-    {{ $page.Title }}
-  </a>
+  </div>
 
-  {{ $displayDate := true }}
-  {{ $tagsHidePostDate := or $page.Site.Params.Hidden.TagsPostDate slice }}
-  {{ $postTags := or $page.Params.Tags slice }}
-
-  {{ if gt ($tagsHidePostDate | intersect $postTags | len) 0 }}
-    {{ $displayDate = false }}
+  {{ with $page.Description }}
+    <div class="publication-description">
+      {{ . }}
+    </div>
   {{ end }}
 </div>

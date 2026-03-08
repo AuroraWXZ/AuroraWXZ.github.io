@@ -16,3 +16,24 @@
 
 /* publication type */
 .conf-badge.proceeding { background-color: #615EAA; }
+
+.post-entry {
+  margin-bottom: 1.75rem;
+}
+
+.post-title {
+  line-height: 1.45;
+}
+
+.publication-title {
+  font-weight: 700;
+}
+
+.publication-description {
+  margin-top: 0.4rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #666;
+  padding-left: 0.1rem;
+  max-width: 950px;
+}
