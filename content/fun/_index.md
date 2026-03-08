@@ -9,6 +9,13 @@ I also enjoy cooking and exploring good food. Staying active is important to me 
 
 In my free time, I enjoy watching movies, reading books, and playing video games. Recently I have been playing **Final Fantasy VII Rebirth**, and on Nintendo Switch I am still exploring **The Legend of Zelda: Breath of the Wild** and **Tears of the Kingdom**.
 
+<div class="photo-grid">
+
+<img src="/android-chrome-512x512.png" onclick="openLightbox(this.src)">
+<img src="/images/avatar.webp" onclick="openLightbox(this.src)">
+
+</div>
+
 ---
 
 ## 🏙️ Life in Sydney
