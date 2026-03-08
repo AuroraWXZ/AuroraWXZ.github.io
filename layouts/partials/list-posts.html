@@ -1,20 +1,13 @@
 {{ $page := . }}
 <div class="post-entry">
-  <div class="post-title">
+  <div class="post-title-row">
+    {{ with $page.Params.badge }}
+      <span class="conf-badge {{ $page.Params.badgeClass }}">{{ . }}</span>
+    {{ end }}
+
     <a href="{{ $page.Permalink }}" class="post-link">
-      {{ with $page.Params.badge }}
-        <span class="conf-badge {{ $page.Params.badgeClass }}">{{ . }}</span>
-      {{ end }}
       <span class="publication-title">{{ $page.Title }}</span>
     </a>
-
-    {{ $displayDate := true }}
-    {{ $tagsHidePostDate := or $page.Site.Params.Hidden.TagsPostDate slice }}
-    {{ $postTags := or $page.Params.Tags slice }}
-
-    {{ if gt ($tagsHidePostDate | intersect $postTags | len) 0 }}
-      {{ $displayDate = false }}
-    {{ end }}
   </div>
 
   {{ with $page.Description }}

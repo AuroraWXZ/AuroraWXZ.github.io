@@ -21,48 +21,38 @@
   margin-right: 0.6rem;
 }
 
-/* make the publication entry slightly more spaced */
 .post-entry {
-  margin-bottom: 2rem;
+  margin-bottom: 2.2rem;
 }
 
-/* allow the title line to take full width */
-.post-title {
-  max-width: 1100px;
-  line-height: 1.5;
+.post-title-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+  width: 100%;
 }
 
-/* enlarge and bold the title */
-.publication-title {
-  font-size: 1.25rem;
-  font-weight: 700;
+.conf-badge {
+  flex: 0 0 auto;
+  margin-top: 0.2rem;
 }
 
-/* allow the title text to wrap nicely */
 .post-link {
-  display: inline;
+  flex: 1 1 auto;
+  min-width: 0;
   text-decoration: none;
 }
 
-/* description styling */
-.publication-description {
-  margin-top: 0.45rem;
-  font-size: 0.95rem;
-  line-height: 1.6;
-  color: #cfcfcf;
-  max-width: 1100px;
-}
-
-.container {
-  max-width: 2000px;
-}
-
-.content {
-  max-width: 2000px;
-}
-
 .publication-title {
+  display: block;
   font-size: 1.35rem;
   font-weight: 700;
-  line-height: 1.4;
+  line-height: 1.45;
+}
+
+.publication-description {
+  margin-top: 0.55rem;
+  font-size: 0.98rem;
+  line-height: 1.65;
+  color: #d0d0d0;
 }
