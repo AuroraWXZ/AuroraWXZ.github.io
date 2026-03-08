@@ -13,6 +13,7 @@ title = "Xinzhi"
   avatarSize = "size-xl"
   avatarURL = "/images/avatar.webp"
   accentColor = "#FF4D4D"
+  customCSS = ["css/custom.css"]
 
 
   customHeadHTML = """
