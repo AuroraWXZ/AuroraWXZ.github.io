@@ -6,7 +6,7 @@ languageCode = "en"
 # Choose one of emacs, trac or perldoc
 pygmentsStyle = "monokai"
 theme = "gokarna"
-title = "Xinzhi Wang"
+title = "Xinzhi"
 
 [params]
   avatarAltText = "avatar"
@@ -34,7 +34,7 @@ title = "Xinzhi Wang"
     </script>
   """
 
-  description = "Sky above, sand below and peace within"
+  description = "My name is Xinzhi Wang (王昕智), though you can also call me **Aurora**. I am a PhD student in Computer Science at Purdue University, where I am fortunate to work with Professor Chunwei Liu. My research lies at the intersection of large language models and database systems, with a particular interest in retrieval-augmented generation and AI for databases."
   footer = "Xinzhi Wang"
   metaKeywords = ["blog", "Xinzhi", "hugo"]
   showBackToTopButton = true # true or false for "back to top" button on posts and pages
