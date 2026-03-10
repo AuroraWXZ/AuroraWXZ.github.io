@@ -20,7 +20,7 @@ Hi! I am **Xinzhi Wang (王昕智)**, though my friends also call me **Aurora**.
 - **University of Sydney**  
   Bachelor of Advanced Computing (Honours), Feb 2019 – Jul 2023  
   Majors: Computational Data Science and Computer Science  
-  Advisor: Professor Clément Canonne
+  Supervisor: Professor Clément Canonne
 
 <!-- ## :robot: Experience -->
 
