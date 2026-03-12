@@ -114,3 +114,17 @@ html[data-theme="dark"] .publication-description {
   color: white;
   cursor: pointer;
 }
+
+.clustrmaps-globe {
+  width: 220px;
+  height: 220px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.clustrmaps-globe iframe,
+.clustrmaps-globe canvas,
+.clustrmaps-globe div {
+  width: 100% !important;
+  height: 100% !important;
+}
