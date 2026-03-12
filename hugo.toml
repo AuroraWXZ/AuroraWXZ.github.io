@@ -26,33 +26,37 @@ title = "Xinzhi"
     <script>
       document.addEventListener("DOMContentLoaded", function() {
         renderMathInElement(document.body, {
-          // customised options
-          // • auto-render specific keys, e.g.:
           delimiters: [
             {left: '$$', right: '$$', display: true},
             {left: '$', right: '$', display: false},
           ],
-          // • rendering keys, e.g.:
-          throwOnError : false
+          throwOnError: false
         });
       });
     </script>
 
     <script>
-  function openLightbox(src) {
-    const lightbox = document.getElementById("lightbox");
-    const lightboxImg = document.getElementById("lightbox-img");
-    lightboxImg.src = src;
-    lightbox.style.display = "flex";
-    document.body.style.overflow = "hidden";
-  }
+      function openLightbox(src) {
+        const lightbox = document.getElementById("lightbox");
+        const lightboxImg = document.getElementById("lightbox-img");
+        lightboxImg.src = src;
+        lightbox.style.display = "flex";
+        document.body.style.overflow = "hidden";
+      }
 
-  function closeLightbox() {
-    const lightbox = document.getElementById("lightbox");
-    lightbox.style.display = "none";
-    document.body.style.overflow = "";
-  }
-</script>
+      function closeLightbox() {
+        const lightbox = document.getElementById("lightbox");
+        lightbox.style.display = "none";
+        document.body.style.overflow = "";
+      }
+    </script>
+
+    <!-- ClustrMaps -->
+    <script
+      type="text/javascript"
+      id="clstr_globe"
+      src="//clustrmaps.com/globe.js?d=I3-sTDwGkGnW02XDmXmqkLt52swcF7TEvjTntKJpaec">
+    </script>
   """
 
   description = "Ph.D Student • LLM & Databases"
