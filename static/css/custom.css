@@ -126,3 +126,11 @@ html[data-theme="dark"] .publication-description {
   width: 100% !important;
   height: 100% !important;
 }
+
+#clstr_globe {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  transform: scale(0.55);
+  transform-origin: top center;
+}
