@@ -18,36 +18,52 @@ title = "Xinzhi"
 
   customHeadHTML = """
     <link rel="stylesheet" href="/css/custom.css">
-    
+
     <!-- KaTeX -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" integrity="sha384-5TcZemv2l/9On385z///+d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP" crossorigin="anonymous">
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js" integrity="sha384-cMkvdD8LoxVzGF/RPUKAcvmm49FQ0oxwDF3BGKtDXcEc+T1b2N+teh/OJfpU0jr6" crossorigin="anonymous"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        renderMathInElement(document.body, {
-          delimiters: [
-            {left: '$$', right: '$$', display: true},
-            {left: '$', right: '$', display: false},
-          ],
-          throwOnError: false
-        });
-      });
-    </script>
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css"
+          integrity="sha384-5TcZemv2l/9On385z///+d7MSYlvIEw9FuZTIdZ14vJLqWphw7e7ZPuOiCHJcFCP"
+          crossorigin="anonymous">
+
+    <script defer
+            src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js"
+            integrity="sha384-cMkvdD8LoxVzGF/RPUKAcvmm49FQ0oxwDF3BGKtDXcEc+T1b2N+teh/OJfpU0jr6"
+            crossorigin="anonymous"></script>
+
+    <script defer
+            src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js"
+            integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh"
+            crossorigin="anonymous"></script>
 
     <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        if (typeof renderMathInElement !== "undefined") {
+          renderMathInElement(document.body, {
+            delimiters: [
+              { left: "$$", right: "$$", display: true },
+              { left: "$", right: "$", display: false }
+            ],
+            throwOnError: false
+          });
+        }
+      });
+
       function openLightbox(src) {
         const lightbox = document.getElementById("lightbox");
         const lightboxImg = document.getElementById("lightbox-img");
-        lightboxImg.src = src;
-        lightbox.style.display = "flex";
-        document.body.style.overflow = "hidden";
+        if (lightbox && lightboxImg) {
+          lightboxImg.src = src;
+          lightbox.style.display = "flex";
+          document.body.style.overflow = "hidden";
+        }
       }
 
       function closeLightbox() {
         const lightbox = document.getElementById("lightbox");
-        lightbox.style.display = "none";
-        document.body.style.overflow = "";
+        if (lightbox) {
+          lightbox.style.display = "none";
+          document.body.style.overflow = "";
+        }
       }
     </script>
 
@@ -55,7 +71,7 @@ title = "Xinzhi"
     <script
       type="text/javascript"
       id="clstr_globe"
-      src="//clustrmaps.com/globe.js?d=I3-sTDwGkGnW02XDmXmqkLt52swcF7TEvjTntKJpaec">
+      src="https://clustrmaps.com/globe.js?d=I3-sTDwGkGnW02XDmXmqkLt52swcF7TEvjTntKJpaec">
     </script>
   """
 
