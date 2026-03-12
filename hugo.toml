@@ -66,12 +66,13 @@ title = "Xinzhi"
         }
       }
     </script>
+  """
 
-    <!-- ClustrMaps -->
+  customFooterHTML = """
     <script
       type="text/javascript"
-      id="clstr_globe"
-      src="https://clustrmaps.com/globe.js?d=I3-sTDwGkGnW02XDmXmqkLt52swcF7TEvjTntKJpaec">
+      id="clustrmaps"
+      src="https://clustrmaps.com/map_v2.js?d=I3-sTDwGkGnW02XDmXmqkLt52swcF7TEvjTntKJpaec&cl=ffffff&w=a">
     </script>
   """
 
