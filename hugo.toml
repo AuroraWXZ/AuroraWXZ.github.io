@@ -68,18 +68,6 @@ title = "Xinzhi"
     </script>
   """
 
-  customFooterHTML = """
-      {{ if .IsHome }}
-        <div class="globe-wrap">
-          <script
-            type="text/javascript"
-            id="clustrmaps"
-            src="//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=200&t=n&d=I3-sTDwGkGnW02XDmXmqkLt52swcF7TEvjTntKJpaec">
-          </script>
-        </div>
-      {{ end }}
-    """
-
   description = "Ph.D Student • LLM & Databases"
   footer = "Xinzhi Wang"
   metaKeywords = ["blog", "Xinzhi", "hugo"]
