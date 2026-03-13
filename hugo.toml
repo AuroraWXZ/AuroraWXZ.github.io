@@ -69,13 +69,14 @@ title = "Xinzhi"
   """
 
   customFooterHTML = """
-    <div class="globe-wrap">
-      <script type="text/javascript"
-              id="clstr_globe"
-              src="https://clustrmaps.com/globe.js?d=I3-sTDwGkGnW02XDmXmqkLt52swcF7TEvjTntKJpaec">
-      </script>
-    </div>
-  """
+      <div class="globe-wrap">
+        <script
+          type="text/javascript"
+          id="clstr_globe"
+          src="https://clustrmaps.com/globe.js?d=I3-sTDwGkGnW02XDmXmqkLt52swcF7TEvjTntKJpaec">
+        </script>
+      </div>
+    """
 
   description = "Ph.D Student • LLM & Databases"
   footer = "Xinzhi Wang"

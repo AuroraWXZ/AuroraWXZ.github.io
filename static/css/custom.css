@@ -119,10 +119,7 @@ html[data-theme="dark"] .publication-description {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
-  margin-bottom: -120px;
-}
-
-#clstr_globe {
+  margin-bottom: -220px;
   transform: scale(0.55);
   transform-origin: top center;
 }
