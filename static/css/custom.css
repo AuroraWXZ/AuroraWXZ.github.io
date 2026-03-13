@@ -120,6 +120,6 @@ html[data-theme="dark"] .publication-description {
   justify-content: center;
   margin-top: 1rem;
   margin-bottom: -220px;
-  transform: scale(0.55);
+  transform: scale(0.35);
   transform-origin: top center;
 }
