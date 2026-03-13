@@ -114,12 +114,3 @@ html[data-theme="dark"] .publication-description {
   color: white;
   cursor: pointer;
 }
-
-.globe-wrap {
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-  margin-bottom: -220px;
-  transform: scale(0.35);
-  transform-origin: top center;
-}
