@@ -69,11 +69,10 @@ title = "Xinzhi"
   """
 
   customFooterHTML = """
-    <div class="clustrmaps-globe">
-      <script
-        type="text/javascript"
-        id="clstr_globe"
-        src="https://clustrmaps.com/globe.js?d=I3-sTDwGkGnW02XDmXmqkLt52swcF7TEvjTntKJpaec">
+    <div class="globe-wrap">
+      <script type="text/javascript"
+              id="clstr_globe"
+              src="https://clustrmaps.com/globe.js?d=I3-sTDwGkGnW02XDmXmqkLt52swcF7TEvjTntKJpaec">
       </script>
     </div>
   """
